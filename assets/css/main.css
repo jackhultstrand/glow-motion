@@ -1169,8 +1169,8 @@ body {
  .about--banner img {
   display:none
  }
- .about--options {
-  display:none
+  #we{
+ display: none;
  }
 }
 .contact {
