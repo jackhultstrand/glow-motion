@@ -57,9 +57,7 @@ text-align: center;
 #about-us{
 font-size:120%;
 }
-#meet{
-font-size:170%;
-}
+
 
   </style>
   
@@ -100,8 +98,8 @@ font-size:170%;
         <ul class="l-main-content main-content">
           <li class="l-section section section--is-active">
             <div class="intro">
-                 <video id="myVideo" autoplay muted>
-              <source id="videoSource" type="video/mp4" src="demo.mp4" alt= "Welcome">
+                 <video id="myVideo" autoplay>
+              <source id="videoSource" type="video/mp4" src="films/demo.mp4" alt= "Welcome">
             </video>
             </div>
           </li>
@@ -116,6 +114,7 @@ font-size:170%;
                         <img src="assets/img/commercial.jpg" alt="Victory">
                       </div>
                       <p class="slider--item-title">Commercials</p>
+                      <p class="slider--item-description">Please click on the image above to view our work</p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-center">
@@ -124,6 +123,7 @@ font-size:170%;
                         <img src="assets/img/mv.jpg" alt="Metiew and Smith">
                       </div>
                       <p class="slider--item-title">Music Videos</p>
+                      <p class="slider--item-description">Please click on the image above to view our work</p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-right">
@@ -132,6 +132,7 @@ font-size:170%;
                         <img src="assets/img/photography.jpg" alt="Alex Nowak">
                       </div>
                       <p class="slider--item-title">Photography</p>
+                      <p class="slider--item-description">Please click on the image above to view our work</p>
                     </a>
                   </li>
                   <li class="slider--item slider--item">
@@ -140,6 +141,7 @@ font-size:170%;
                         <img src="assets/img/shorts.jpg" alt="Alex Nowak">
                       </div>
                       <p class="slider--item-title">Shorts</p>
+                      <p class="slider--item-description">Please click on the image above to view our work</p>
                     </a>
                   </li>
                   <li class="slider--item slider--item">
@@ -148,6 +150,7 @@ font-size:170%;
                         <img src="assets/img/documentaries.jpg" alt="Alex Nowak">
                       </div>
                       <p class="slider--item-title">Documentaries</p>
+                      <p class="slider--item-description">Please click on the image above to view our work</p>
                     </a>
                   </li>
                 </ul>
@@ -180,7 +183,7 @@ font-size:170%;
             		<p id="about-us"> At Glow Motion Pictures, collaboration lies at the heart of our creative endeavors. We believe that by fostering a supportive and inspiring community, we can unlock the full potential of out artists and create extraordinary cinematic experiences. We bring together passionate individuals from various disciplines, including award-winning directors, writers, cinematographers, editors, producers, and more. By encouraging them to thrive in their respective crafts while pushing the boundaries of creativity, we strive to deliver exceptional results.   </p>
             	</div>
             	<div class="about--options">
-            	 <a href="works/team.html" id="meet">Meet our Team
+            	 <a href="works/team.html" id="meet"> Meet our Team
                   <span>
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
                     <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
@@ -189,10 +192,8 @@ font-size:170%;
                     </svg>
                   </span>
                 </a>
-                </div>
-               
-              </div>
-              
+                </div>               
+              </div>          
           </li>
           <li class="l-section section">
             <div class="contact">
@@ -213,17 +214,7 @@ font-size:170%;
             	<h1 id = "hire-title"> Hire Us </h1>
               	<h1 id = "hireus-intro"> Unleash the full potential of your ideas now. Contact us today to receive a personalized quote for your project, and let us make your vision a reality!</h1>
               <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request" method="post" action="send_email.php">
-  				<div class="work-request--information">
-    			    <div class="information-name">
-      					<input id="name" type="text" name="name" spellcheck="false" required>
-      						<label for="name">Name</label>
-    				</div>
-    				<div class="information-email">
-      					<input id="email" type="email" name="email" spellcheck="false" required>
-      					<label for="email">Email</label>
-    				</div>
-  				</div>
+              <form class="work-request" method="post"action="mailto:info@glowmotionpictures.com">
   				<input type="submit" value="Send Request">
 			</form>
             </div>
